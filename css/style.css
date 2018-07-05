@@ -94,11 +94,13 @@ letter-spacing: 0.3em;
   overflow: hidden;
   width: 400px;
   height: 200px;
+
 }
 
 .images{
   width:400px; /* you can use % */
    height: auto;
+   	
    	box-shadow: 2px 5px 10px #808080;
 
 }
@@ -171,6 +173,7 @@ line-height: 2.5em;
 .videobox{
 
 display:flex;
+
 padding:1% 35%;
 }
 
@@ -232,16 +235,22 @@ h2{
 .videobox{
 
 display:block;
-padding:1% 15%;
+
+
+padding :0%  20%  ;
 }
+
 .video{
-	padding:1% 15%;
+	padding:1% 5%;
 }
 .images {
 
 
 
 }
+
+
+
 
 .videotext{
 flex:2;
@@ -272,6 +281,13 @@ padding-top:3%;
 
 } 
 
+
+.highlight2{
+
+	font-size: 1.5em;
+line-height: 2em;
+
+}
 
 
 
