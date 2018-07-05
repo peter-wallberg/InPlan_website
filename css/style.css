@@ -17,7 +17,13 @@ body{
 }
 /*Global*/
 
-.container{
+*{
+	overflow-x: hidden;
+	text-align: center; 
+
+}
+
+header, footer, .container{
 
   	margin: auto;
 	overflow: hidden;
@@ -28,10 +34,12 @@ body{
 
 h1{
 	font-size: 40px;
+	overflow: hidden;
 }
 
 h2{
 	font-size: 28px;
+	overflow: hidden;
 }
 
 .inside{
@@ -70,8 +78,8 @@ header{
   left: -25%;
   position: relative;  
   right: 0;
-
   box-shadow: 5px 10px 20px #808080;
+
 
 
 } 
@@ -185,6 +193,7 @@ padding-top:3%;
 
 .videotext .videoboxparagraph{
 	text-align: left;
+	min-height: 50px;
 
 }
 
@@ -198,6 +207,7 @@ padding: 0 10%;
 
 footer{
 	background: #87CEEB;
+	text-align: left;
 }
 
 
@@ -207,4 +217,63 @@ footer{
 	background: url(../img/inplanpicture.jpg) no-repeat;
 	text-align: center;
 }*/
+@media(max-width: 768px){
+
+h1{
+	font-size: 23px;
+	overflow: hidden;
+}
+
+h2{
+	font-size: 18px;
+	overflow: hidden;
+}
+
+.videobox{
+
+display:block;
+padding:1% 15%;
+}
+.video{
+	padding:1% 15%;
+}
+.images {
+
+
+
+}
+
+.videotext{
+flex:2;
+padding-top:3%; 
+
+
+}
+
+.videotext .videoboxparagraph{
+	text-align: center;
+
+
+}
+
+#introduction{
+  
+  width: 150%;
+  height: 150%;
+  border-bottom-left-radius:  0% ;
+  border-bottom-right-radius: 0% ;
+  top: 100%;
+  left: -25%;
+  position: relative;  
+  right: 0;
+  box-shadow: 5px 10px 20px #808080;
+
+
+
+} 
+
+
+
+
+}
 
