@@ -181,12 +181,12 @@ padding:1% 30%;
 
 .videoboxheading{
 	font-family: fb,Arial, Helvetica, sans-serif;
-	letter-spacing: .1em;  
+	letter-spacing: .1em; 
 }
 
 .video{
 	flex:3;
-	padding:5% 5%;
+	padding:0 5%;
 	
 }
 
@@ -210,7 +210,7 @@ margin: 0;
 }
 
 .videoboxparagraph{
-padding: 0 10%; 
+padding: 0 5%; 
 }
 
 footer{
