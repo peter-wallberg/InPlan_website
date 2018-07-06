@@ -35,11 +35,15 @@ header, footer, .container{
 h1{
 	font-size: 40px;
 	overflow: hidden;
+	margin-top: 2%;
+	margin-bottom: 1%;
 }
 
 h2{
 	font-size: 28px;
 	overflow: hidden;
+	margin-top: 2%;
+	margin-bottom: 0%;
 }
 
 .inside{
