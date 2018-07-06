@@ -95,12 +95,14 @@ letter-spacing: 0.3em;
   width: 400px;
   height: 200px;
 
+
+
 }
 
 .images{
-  width:400px; /* you can use % */
-   height: auto;
-   	
+  width:100%; /* you can use % */
+
+	
    	box-shadow: 2px 5px 10px #808080;
 
 }
@@ -174,7 +176,7 @@ line-height: 2.5em;
 
 display:flex;
 
-padding:1% 35%;
+padding:1% 30%;
 }
 
 .videoboxheading{
@@ -184,12 +186,15 @@ padding:1% 35%;
 
 .video{
 	flex:3;
+	padding:5% 5%;
+	
 }
 
 .videotext{
-flex:2;
+flex:3;
 float:left;
-padding-top:3%; 
+padding-bottom:3%; 
+padding-left: 3%;
 
 
 }
@@ -234,18 +239,20 @@ h2{
 
 .videobox{
 
-display:block;
+display:inline-block;
 
+padding :0%  20%;
 
-padding :0%  20%  ;
+padding-bottom: 3%;
 }
 
 .video{
-	padding:1% 5%;
+	display:inline-flex;
+	padding:5% 5%;
 }
 .images {
 
-
+ width:100%; /* you can use % */
 
 }
 
@@ -289,7 +296,51 @@ line-height: 2em;
 
 }
 
+div p{
+	padding: 0 28%;
+
+}
+
 
 
 }
+
+@media(max-width: 500px){
+
+	h1{
+	font-size: 18px;
+	overflow: hidden;
+}
+
+h2{
+	font-size: 16px;
+	overflow: hidden;
+}
+
+div p{
+	padding: 0 26%;
+
+}
+
+.video{
+
+  overflow: hidden;
+  width: 200px;
+  height: 100px;
+
+
+
+}
+
+.images{
+  width:100%; /* you can use % */
+
+	
+   	box-shadow: none;
+
+}
+
+
+
+	}
 
