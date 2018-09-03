@@ -23,6 +23,12 @@ body{
 
 }
 
+
+#branding {
+padding-top: 8%;
+
+}
+
 header, footer, .container{
 
   	margin: auto;
@@ -65,7 +71,7 @@ header{
 	background:#000000; 
 	color: #FFFFFF;
 	
-	height: 150px;
+	height: 200px;
 
 	
 
