@@ -3,7 +3,7 @@
 	src:url('../fonts/futurabold.otf');
 	font-family: fl; 
 	src:url('../fonts/futuralight.otf');
-	
+
 }
 
 
@@ -15,6 +15,8 @@ body{
 	margin:0; 
 	background-color: #FFFFFF 
 }
+
+
 /*Global*/
 
 *{
@@ -24,8 +26,10 @@ body{
 }
 
 
+
 #branding {
-padding-top: 4em;
+
+padding-top: 1em;
 
 }
 
@@ -48,12 +52,12 @@ h1{
 h2{
 	font-size: 28px;
 	overflow: hidden;
-	margin-top: 2%;
+	margin-top: 0%;
 	margin-bottom: 0%;
 }
 
 .inside{
-	margin: 3% 0; 
+	margin: 2% 0 ; 
 
 
 
@@ -68,10 +72,10 @@ div p{
 /*Header*/
 header{
 	
-	background:#000000; 
-	color: #FFFFFF;
+	background:#FFFFFF; 
+	color: rgb(0, 0, 0);
 	
-	height: 200px;
+	height: 150px;
 
 	
 
@@ -88,11 +92,86 @@ header{
   left: -25%;
   position: relative;  
   right: 0;
-  box-shadow: 5px 10px 20px #808080;
-
+ 
+  box-shadow: 10px 30px 30px -30px #808080;
 
 
 } 
+#introwrapper
+{
+	text-align: left; 
+
+}
+
+#listwrapper
+{
+}
+
+#listwrapper ul
+{
+	padding: 0 37%; 
+	text-align: left;
+
+		
+
+}
+
+#listwrapper p
+{
+	text-align: left;
+}
+
+
+
+#listwrapper ul li
+{
+overflow-x: visible;
+list-style: square outside none;
+display: list-item;
+margin-left: 1em;
+text-align: left;  
+}
+
+#inplanparagraf{
+
+	
+	text-align: left;
+}
+
+#inplanknapp{
+	background-color: rgb(51, 102, 255);
+	border: none;
+	color: white;
+	text-decoration: none; 
+
+	padding: 15px 25px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+
+
+
+}
+#inplanknapp:hover{
+	background-color: rgb(2, 29, 112);
+
+
+
+
+}
+
+#notyet{
+
+	color:rgb(187, 186, 186); 
+}
+
+
+#case{
+
+	
+}
+
+
 
 .inside h1{
 
@@ -118,9 +197,21 @@ letter-spacing: 0.3em;
 }
 
 #introduction, #what-to-expect, #contact{
-	background:#000000; 
-	color: #FFFFFF;
+	background:#FFFFFF; 
+	color: rgb(0, 0, 0);
 }
+
+
+
+#introduction .inside{
+  
+	margin: 0;
+  
+   
+  
+  
+  } 
+
 
 .container h1{
 
@@ -149,7 +240,7 @@ font-size: 0.65em;
 
 .highlights{
 	
-	color: #87CEEB;
+	color: rgb(7, 66, 10);
 	font-size: 3em;
 	line-height: 0.1;
 
@@ -224,8 +315,9 @@ padding: 0 5%;
 }
 
 footer{
-	background: #87CEEB;
+	background:rgb(7, 66, 10);
 	text-align: left;
+	color:#FFFFFF
 }
 
 
@@ -294,9 +386,13 @@ padding-top:3%;
   right: 0;
   box-shadow: 5px 10px 20px #808080;
 
+ 
 
 
 } 
+
+
+
 
 
 .highlight2{
@@ -349,6 +445,8 @@ div p{
    	box-shadow: none;
 
 }
+
+
 
 
 
