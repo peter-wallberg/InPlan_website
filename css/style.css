@@ -160,6 +160,38 @@ text-align: left;
 
 }
 
+#drönarlista{
+
+
+	
+}
+
+#drönarlista ul
+{
+	padding: 0 37%; 
+	text-align: left;
+
+		
+
+}
+
+
+#drönarlista p
+{
+	text-align: left;
+}
+
+
+
+#drönarlista ul li
+{
+overflow-x: visible;
+list-style: square outside none;
+display: list-item;
+margin-left: 1em;
+text-align: left;  
+}
+
 #notyet{
 
 	color:rgb(187, 186, 186); 
