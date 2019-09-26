@@ -168,7 +168,80 @@ text-align: left;
 
 #case{
 
+
+}
+
+#navigationbar{
+	padding-top: 1em;
+
+	display:flex;
+	flex-wrap: wrap;
+
+	width: auto; 
+	overflow: visible;  
 	
+cursor: pointer;
+}
+
+#navigationbar ul{
+	padding-top: 1em;
+	display:flex;
+	flex-wrap: wrap;
+	padding-left: 0px; 
+	z-index: 1000;
+	
+}
+
+#navigationbar ul li{
+list-style: none; 
+line-height: 50px; 
+
+}
+
+#navigationbar ul li a{
+	display: block; 
+	height: 100%;  
+	padding: 0 10px;  
+	text-transform: uppercase; 
+	text-decoration: none; 
+
+	color: #000; 
+	
+
+}
+
+#navigationbar ul li a:hover{
+	display: block; 
+	height: 100%; 
+	padding: 0 10px;  
+	text-transform: uppercase; 
+	text-decoration: none; 
+
+	background-color: rgb(252, 250, 255) ; 
+	
+}
+
+#navigationbar ul li ul{
+	display: none; 
+	position: absolute;
+	background-color: #FFFFFF;
+	
+
+}
+
+
+
+#navigationbar ul li:hover ul{
+	display: block; 
+	
+	
+
+}
+
+#navigationbar ul li ul li a{
+	width: 200px; 
+	
+
 }
 
 
@@ -240,7 +313,7 @@ font-size: 0.65em;
 
 .highlights{
 	
-	color: rgb(7, 66, 10);
+	color: rgb(102, 153, 102);
 	font-size: 3em;
 	line-height: 0.1;
 
