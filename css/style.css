@@ -160,6 +160,31 @@ text-align: left;
 
 }
 
+
+table {
+	width:100%;
+padding-left:30%;	
+padding-right:30%;
+border-spacing: 0; 
+  }
+  
+table td, th, tr {
+	text-align: left;
+	padding: 8px;
+
+
+}
+
+table td{
+
+}
+  
+table tr:nth-child(even) {
+	background-color: #dddddd;
+  }
+
+
+
 #drönarlista{
 
 
